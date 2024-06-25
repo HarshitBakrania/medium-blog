@@ -17,7 +17,7 @@ export const BlogCard = ({ authorName, title, content, publishedDate, id}: BlogC
                     <Avatar name={authorName}/>
                 </div>
                 <div className="pl-2 pt-2">
-                    {authorName} | 
+                    {authorName}
                 </div>
                 <div className="font-normal pl-2 pt-2 text-slate-400">
                     {publishedDate}
